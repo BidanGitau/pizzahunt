@@ -36,11 +36,16 @@ body {
     border-radius: 0% 100% 0% 100%;
 }
 
-.check-out {}
-
 .img-icon img,
 .check-out img {
     height: 50px;
     width: 50px;
     object-fit: contain;
+}
+
+.hr-sp {
+    padding: 0;
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
