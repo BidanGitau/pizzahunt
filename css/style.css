@@ -3,3 +3,30 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f3f3f3;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-icon img,
+.check-out img {
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+    padding: 10px;
+}
