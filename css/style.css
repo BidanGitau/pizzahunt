@@ -2,6 +2,7 @@
     border: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: #f3f3f3;
 }
 
 body {
@@ -13,20 +14,33 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    font-weight: 600;
     padding: 10px;
-    background-color: #f3f3f3;
 }
 
-.icon {
+.icon,
+.img-icon {
+    margin-left: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 5px solid rgba(243, 215, 57, 0.315);
+    border-radius: 5px 17px 1px 24px;
+    height: 70px;
+    padding: 5px;
 }
+
+.piz-name {
+    padding: 5px;
+    border: 5px solid rgba(209, 181, 19, 0.623);
+    border-radius: 0% 100% 0% 100%;
+}
+
+.check-out {}
 
 .img-icon img,
 .check-out img {
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     object-fit: contain;
-    padding: 10px;
 }
