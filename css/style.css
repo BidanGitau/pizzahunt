@@ -18,6 +18,19 @@ body {
     padding: 10px;
 }
 
+
+/* 
+.land {
+    width: 45vw;
+    height: 800px;
+    overflow-x: hidden;
+} */
+
+.pizz-img img {
+    object-fit: contain;
+    width: 45vw;
+}
+
 .icon,
 .img-icon {
     margin-left: 10px;
