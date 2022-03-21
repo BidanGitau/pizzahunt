@@ -178,8 +178,8 @@ body {
 }
 
 .about {
-    background: url(../img/about.mp4);
     height: 400px;
     justify-content: center;
     text-align: center;
+    overflow-x: hidden;
 }
