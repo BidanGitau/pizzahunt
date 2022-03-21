@@ -178,8 +178,27 @@ body {
 }
 
 .about {
-    height: 400px;
     justify-content: center;
     text-align: center;
     overflow-x: hidden;
+    position: relative;
+}
+
+.about-vid {
+    height: 400px;
+    object-fit: contain;
+}
+
+video {
+    overflow: hidden !important;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-ab {
+    top: 0;
+    z-index: 1000;
+    color: #b5f947;
 }
