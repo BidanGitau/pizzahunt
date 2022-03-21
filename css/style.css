@@ -32,7 +32,12 @@ body {
     width: 45vw;
 }
 
-.desc-land {}
+.desc-land {
+    background-image: url('../img/pii.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
 
 .icon,
 .img-icon {
