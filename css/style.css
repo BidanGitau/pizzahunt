@@ -176,3 +176,10 @@ body {
     line-height: 24px;
     margin: 0 0 14px
 }
+
+.about {
+    background: url(../img/about.mp4);
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+}
