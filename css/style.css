@@ -43,7 +43,7 @@ body {
 
 .land-h {
     animation: flicker 1.5s infinite alternate;
-    color: #fff;
+    color: rgb(238, 113, 113);
 }
 
 .land-h {
@@ -68,8 +68,8 @@ body {
     }
 }
 
-.move {
-    text-align: center;
+.b-buy {
+    padding-top: 80px !important;
 }
 
 
@@ -144,7 +144,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+    background-image: linear-gradient(to right, #0fd850 0%, #b5f947 100%);
     transition: .5s ease;
     display: block;
     z-index: -1;
