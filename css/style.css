@@ -16,6 +16,7 @@ body {
     justify-content: space-between;
     font-weight: 600;
     padding: 10px;
+    background-attachment: fixed;
 }
 
 
@@ -30,6 +31,8 @@ body {
     object-fit: contain;
     width: 45vw;
 }
+
+.desc-land {}
 
 .icon,
 .img-icon {
