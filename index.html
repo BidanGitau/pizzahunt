@@ -102,9 +102,9 @@
             <div class="col-md-6 ">
                 <h1 class="h-top" style="font-weight: 900; font-size: small;">Select the size</h1>
                 <div class="sizes d-flex  justify-content-evenly  mt-5 mb-3 p-3">
-                    <Button class="p-size ">S</Button>
-                    <Button class="p-size">M</Button>
-                    <Button class="p-size">L</Button>
+                    <Button class="p-size "><input type="radio" name="size" value="small"> Small</Button>
+                    <Button class="p-size"><input type="radio" name="size" value="medium"> Medium</Button>
+                    <Button class="p-size"><input type="radio" name="size" value="large"> Large</Button>
                 </div>
             </div>
             <div class="row mt-5">
@@ -115,7 +115,7 @@
                             <form action="">
                                 <div class="form-group" style="padding: 5px;">
 
-                                    <select class="form-control" data-placeholder="Select a pizza toppings" style="border: 0; border-color: #f3f3f3; padding: 5px; border-radius: 5px;">
+                                    <select class="form-control" id="top" data-placeholder="Select a pizza toppings" style="border: 0; border-color: #f3f3f3; padding: 5px; border-radius: 5px;">
                              
                                       <option value="olive">Olives</option>
                                       <option value="cheese">Cheese</option>
@@ -135,7 +135,7 @@
                             <form action="">
                                 <div class="form-group" style="padding: 5px;">
 
-                                    <select class="form-control" data-placeholder="Select a pizza toppings" style="border: 0; border-color: #f3f3f3; padding: 5px; border-radius: 5px;">
+                                    <select class="form-control top" data-placeholder="Select a pizza crust" id="cruste" style="border: 0; border-color: #f3f3f3; padding: 5px; border-radius: 5px;">
                              
                                       <option value="stuffed">Stuffed</option>
                                       <option value="glutten"> Glutten free</option>
@@ -162,7 +162,8 @@
     <div class="container">
         <div class="row">
 
-            <input type="submit" class="btn btn-info mb-2" style="background: #fbf3c1;" value="Order now">
+
+            <input type="submit" class="btn btn-info mb-2" style="background: #fbf3c1;" value="Order now" onclick="order()">
 
         </div>
     </div>
@@ -187,10 +188,10 @@
                     <tbody>
                         <tr>
                             <th scope="row">1</th>
-                            <td id="psize"></td>
-                            <td id="ptop"></td>
-                            <td id="pcrust"></td>
-                            <td id="ptotal"></td>
+                            <td id="size"></td>
+                            <td id="toppy"></td>
+                            <td id="crusty"></td>
+                            <td id="tt"></td>
                         </tr>
 
                     </tbody>
