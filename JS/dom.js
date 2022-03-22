@@ -61,6 +61,8 @@ function order() {
     document.getElementById('crusty').innerHTML = crust;
     document.getElementById('toppy').innerHTML = top;
     document.getElementById('tt').innerHTML = totalPrice;
+    document.getElementById('check').innerHTML = `<button class="btn btn-success" onclick="alert('Thankyou for buying your pizza From pizzarian your total cost is ${totalPrice}' if delivered an extra charge will be incurred)">check-out</button>`
+
 
     // $("#crust").html(crust + " Crust");
 
