@@ -1,5 +1,5 @@
 # Pizzarian
-####  Pizzarian is a web platform thath helps customers to order customize pizza of interest and make an order
+####  Pizzarian is a web platform thath helps customers to order pizza  online and have it delivered to their premises
 #### By Bidan Gitau
 ## Description
 Pizzarian is a web platform that offers a wide variety of pizza to its customers as they can be able to customize according the kind of pizza wants as heart desires..also get a checkout receipt showing quantity of product ordered an prize it accrues
