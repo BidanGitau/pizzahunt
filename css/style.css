@@ -85,13 +85,13 @@ body {
     border-radius: 5px 17px 1px 24px;
     height: 70px;
     padding: 5px;
+    overflow: hidden;
 }
 
 .piz-name {
     padding: 5px;
     border: 5px solid rgba(209, 181, 19, 0.623);
-    border-radius: 0% 100% 0% 100%;
-    overflow-x: hidden;
+    border-radius: 5px 11px 1px 24px;
 }
 
 .img-icon img,
