@@ -87,7 +87,7 @@
     <div class="hr-sp"></div>
     <!-- about section -->
 
-    <div class="container-fluid pt-5">
+    <div class="container-fluid pt-5 pb-5">
         <div class="row pb-3">
             <div class="col-md-6  position-relative">
                 <div class="h-info" style="margin-left: 10px;">
@@ -101,7 +101,7 @@
 
             <div class="col-md-6 ">
                 <h1 class="h-top" style="font-weight: 900; font-size: small;">Select the size</h1>
-                <div class="sizes d-flex  justify-content-evenly  mt-5">
+                <div class="sizes d-flex  justify-content-evenly  mt-5 mb-3 p-3">
                     <Button class="p-size ">S</Button>
                     <Button class="p-size">M</Button>
                     <Button class="p-size">L</Button>
@@ -157,34 +157,68 @@
         </div>
 
     </div>
+    <!-- check-out section -->
+    <div class="hr-sp"></div>
+    <div class="container-fluid payout">
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-hover table-light">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Pizza Size</th>
+                            <th scope="col">Topings</th>
+                            <th scope="col">Crust</th>
+                            <th scope="col">Total</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td id="psize"></td>
+                            <td id="ptop"></td>
+                            <td id="pcrust"></td>
+                            <td id="ptotal"></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="hr-sp"></div>
     <!-- footer section -->
 
-    <div class=" ">
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-md-12">
 
-        <footer class="text-center text-lg-start" style="background-color: #b1b35848;">
-            <div class="container d-flex justify-content-center py-5">
-                <button type="button" class="btn btn-primary btn-lg btn-floating mx-2">
-          <i class="bi bi-facebook"></i>
+                <footer class="text-center text-lg-start" style="background-color: #fbf3c1;">
+                    <div class="container d-flex justify-content-center py-5">
+                        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #c3abe7;">
+          <i class="fab fa-facebook-f"></i>
         </button>
-                <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
-          <i class=""></i>
+                        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+          <i class="fab fa-youtube"></i>
         </button>
-                <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+                        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
           <i class="fab fa-instagram"></i>
         </button>
-                <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+                        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
           <i class="fab fa-twitter"></i>
         </button>
-            </div>
+                    </div>
 
-            <!-- Copyright -->
-            <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-                © 2022 Copyright:
-                <a class="text-white" href="#">Pizzarian</a>
+                    <!-- Copyright -->
+                    <div class="text-center text-black p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                        © 2022 Copyright:
+                        <a class="text-black" href="#">Pizzarian</a>
+                    </div>
+                    <!-- Copyright -->
+                </footer>
             </div>
-            <!-- Copyright -->
-        </footer>
-
+        </div>
     </div>
 
     <script type="text/javascript" src="/path/to/jquery.js"></script>
